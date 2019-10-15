@@ -9,7 +9,7 @@ $authKey = "298916AKBogUzOF1K85da56d38";
 $senderId = "102234";
 
 //Your message to send, Add URL encoding here.
-$message = urlencode(mysqli_query($con,$sql));
+$message = urlencode($Message);
 
 //Define route 
 $route = "default";
